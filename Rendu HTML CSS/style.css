@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+.navbar {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar-links li {
+  float: left;
+}
+
+.navbar-links li a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.bloc3 {
+  align-content: center;
+  background-color: black;
+  width: auto;
+  display: flex;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin-right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-content: space-between;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: xx-large;
+  text-align: center;
+  background-color: darkgray;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  display: flex;
+
+}
+
+body {
+  background-image: url("Images/Maurauders_Map.png");
+  min-height: 100vh;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    margin-top: auto;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+#footertext {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+}
+
+h2 {
+  background-color: darkgray;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text {
+  background-color: darkgray;
+  padding: 10px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*===========================================================================================*/
+@media screen and (min-width: 801px) {
+
+.navbar-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#logo {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  justify-content: center;
+  margin: auto;
+}
+}
+/* ================================================================================================================*/
+@media screen and (max-width: 800px) {
+
+  .navbar-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+  }
+
+  #logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+}

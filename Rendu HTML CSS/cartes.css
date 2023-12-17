@@ -1,0 +1,85 @@
+@import url("style.css");
+
+@media screen and (min-width: 801px){
+  body {
+    padding-bottom: 60px;
+}
+
+.listecartes1{
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+
+.listecartes2{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+
+.listecartes3{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+
+.listecartes4{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}  
+}
+
+@media screen and (max-width: 800px) {
+    body {
+    padding-bottom: 60px;
+    }
+
+ .listecartes1{
+    background-color: darkred;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+}
+
+.listecartes2{
+    background-color: darkgoldenrod;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+}
+
+.listecartes3{
+    background-color: darkblue;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+}
+
+.listecartes4{
+    background-color: darkgreen;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+}
+}
