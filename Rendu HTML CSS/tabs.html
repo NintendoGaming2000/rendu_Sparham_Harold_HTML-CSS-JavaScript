@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="tabs.css" />
+    <link rel="icon" type="image/png" href="Images/Harry_Potter_Favicon.png" />
+  </head>
+  <body>
+    <div class="bloc3">
+      <img id="logo" src="Images/Logo.png" alt="logo" />
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="cartes.html">Les Cartes</a></li>
+        <li><a href="tabs.html">Tabs</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <ul class="maisons">
+        <li class="tab tab-gryffondor tab-active" data-house="gryffondor">Gryffondor</li>
+        <li class="tab tab-serpentard" data-house="serpentard">Serpentard</li>
+        <li class="tab tab-serdaigle" data-house="serdaigle">Serdaigle</li>
+        <li class="tab tab-poufsouffle" data-house="poufsouffle">Poufsouffle</li>
+    </ul>
+
+  <div class="content gryffondor active">
+    <img src="Images/Carte_Harry_Potter.png" alt="Harry Potter" />
+    <img src="Images/Carte_Ron_Weasley.png" alt="Ron Weasley" />
+    <img src="Images/Carte_Hermione_Granger.png" alt="Hermione Granger" />
+  </div>
+  <div class="content serpentard">
+    <img src="Images/Carte_Draco_Malfoy.png" alt="Draco Malfoy" />
+    <img src="Images/Carte_Vincent_Crabbe.png" alt="Vincent Crabe" />
+    <img src="Images/Carte_Gregory_Goyle.png" alt="Gregory Goyle" />
+  </div>
+  <div class="content serdaigle">
+    <img src="Images/Carte_8.png" alt="Carte Serdaigle" />
+    <img src="Images/Carte_8.png" alt="Carte Serdaigle" />
+    <img src="Images/Carte_8.png" alt="Carte Serdaigle" />
+  </div>
+  <div class="content poufsouffle">
+    <img src="Images/Carte_7.png" alt="Carte Poufsouffle" />
+    <img src="Images/Carte_7.png" alt="Carte Poufsouffle" />
+    <img src="Images/Carte_7.png" alt="Carte Poufsouffle" />
+  </div>
+
+      <!--<div class="portfolio-elements">
+        <div class="card filtr-item" data-category="gryffondor">
+          <div class="card-header">
+            <p class="card-title">Harry Potter</p>
+            <div class="card-axe">Gryffondor</div>
+          </div>
+
+          <a href="Images/Carte_Harry_Potter.png">
+            <img src="Images/Carte_Harry_Potter.png" alt="Harry Potter" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="poufsouffle">
+          <div class="card-header">
+            <p class="card-title">Poufsouffle</p>
+            <div class="card-axe">Poufsouffle</div>
+          </div>
+
+          <a href="Images/Carte_8.png">
+            <img src="Images/Carte_8.png" alt="Poufsouffle" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="serpentard">
+          <div class="card-header">
+            <p class="card-title">Draco Malfoy</p>
+            <div class="card-axe">Serpentard</div>
+          </div>
+
+          <a href="Images/Carte_Draco_Malfoy.png">
+            <img src="Images/Carte_Draco_Malfoy.png" alt="Draco Malfoy" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="serdaigle">
+          <div class="card-header">
+            <p class="card-title">Serdaigle</p>
+            <div class="card-axe">Serdaigle</div>
+          </div>
+
+          <a href="Images/Carte_7.png">
+            <img src="Images/Carte_7.png" alt="Serdaigle" />
+          </a>
+        </div>
+      </div> -->
+    </main>
+    <footer>
+      <p id="footertext">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea,
+        esse eligendi, nesciunt amet commodi eaque,
+      </p>
+      <button onclick="darkMode()">Dark Mode</button>
+      <button onclick="lightMode()">Light Mode</button>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"
+      integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <script src="tabs.js"></script>
+  </body>
+</html>

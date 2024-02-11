@@ -1,0 +1,41 @@
+@import url("style.css");
+
+.maisons {
+  border: 1px solid #ccc;
+  background-color: grey;
+  display: flex;
+  list-style-type: none;
+  width: 10%;
+  height: fit-content;
+  margin-left: 40%;
+}
+
+li {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+.tab-active {
+  background-color: darkgray;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.dark .maisons {
+  background-color: black;
+}
